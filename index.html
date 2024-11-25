@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+        <p>Your go-to example for basic HTML structure</p>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <article>
+                <h2>About Us</h2>
+                <p>
+                    This webpage is a demonstration of how to structure and style content using basic HTML.
+                    Semantic tags help improve accessibility and search engine optimization (SEO).
+                </p>
+            </article>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <article>
+                <h2>Gallery</h2>
+                <p>Here are some beautiful images for you to enjoy:</p>
+                <img src="download.jpeg" alt="A placeholder image">
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <article>
+                <h2>Contact Us</h2>
+                <p>Feel free to reach out via the following methods:</p>
+                <ul>
+                    <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
+                    <li>Phone: +123 456 7890</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Simple Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
